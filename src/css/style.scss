@@ -1,6 +1,6 @@
 /* variables */ 
 
-$background: #e6cdcd;
+$background: #f0f1e9;
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -10,13 +10,25 @@ body {
   }
 
 a {
-    text-decoration:none;
+    text-decoration:underline;
     color:blue;
   }
   
 a:hover {
     color: red;
   }
+
+a:focus {
+  outline:ridge 2px rgb(0, 0, 0);
+}
+
+code {
+  font-size: 110%;
+  font-family: Consolas,"courier new";
+  padding:2px;
+  background-color: lightblue;
+  color: black;
+}
 
 /* nav */
 
